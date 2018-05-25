@@ -1,9 +1,9 @@
 install_log () {
-  echo "INSTALL: Installing $1"
+  echo "******** INSTALL: Installing $1 ********"
 }
 
 info_log () {
-  echo "INFO $1"
+  echo "******** INFO $1 ********"
 }
 
 install_log "Homebrew"
@@ -23,7 +23,7 @@ command -v zsh | sudo tee -a /etc/shells
 chsh -s $(which zsh)
 
 install_log "Mac CLI"
-git clone https://github.com/guarinogabriel/mac-cli.git && sh mac-cli/mac install
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/guarinogabriel/mac-cli/master/mac-cli/tools/install)"
 
 install_log "NodeJS"
 brew install node npm
