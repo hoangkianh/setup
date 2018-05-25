@@ -1,9 +1,17 @@
+LIGHTBLUE='\033[01;34m'
+
 install_log () {
-  echo "******** INSTALL: Installing $1 ********"
+  echo "
+  
+  ${LIGHTBLUE}**************** INSTALL: Installing $1 ****************
+  
+  "
 }
 
 info_log () {
-  echo "******** INFO $1 ********"
+  echo "
+  ${LIGHTBLUE}**************** INFO $1 ****************
+  "
 }
 
 install_log "Homebrew"
@@ -12,18 +20,15 @@ install_log "Homebrew"
 install_log "Git"
 brew install git
 
-install_log "hoangkianh/setup.git"
-git clone https://github.com/hoangkianh/setup.git && sudo cp /setup/.zshrc ~ && rm -r -f setup
-
 install_log "zsh & plugins"
 brew install zsh zsh-autosuggestions zsh-syntax-highlighting
+
+install_log "zshrc settings"
+curl -o .zshrc https://raw.githubusercontent.com/hoangkianh/setup/master/.zshrc
 
 install_log "Setting zsh as default shell"
 command -v zsh | sudo tee -a /etc/shells
 chsh -s $(which zsh)
-
-install_log "Mac CLI"
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/guarinogabriel/mac-cli/master/mac-cli/tools/install)"
 
 install_log "NodeJS"
 brew install node npm
