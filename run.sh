@@ -1,9 +1,9 @@
 install_log () {
-  log "INSTALL" "Installing $1"
+  echo "INSTALL: Installing $1"
 }
 
 info_log () {
-  log "INFO" $1
+  echo "INFO $1"
 }
 
 install_log "Homebrew"
@@ -13,7 +13,7 @@ install_log "Git"
 brew install git
 
 install_log "hoangkianh/setup.git"
-git clone https://github.com/hoangkianh/setup.git && sudo cp /setup/.zshrc ~
+git clone https://github.com/hoangkianh/setup.git && sudo cp /setup/.zshrc ~ && rm -r -f setup
 
 install_log "zsh & plugins"
 brew install zsh zsh-autosuggestions zsh-syntax-highlighting
