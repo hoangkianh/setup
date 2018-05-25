@@ -74,7 +74,6 @@ EOF
 install_log "VS Code Setting Syncs Extension"
 source ~/.bash_profile && code --install-extension Shan.code-settings-sync
 
-info_log "GitHub Token: d07696d02ce59b1921f44e06362d09f7bd6c6188"
-info_log "GitHub Gist: 424f75a3ebc5bb0c6e94761d0168fa97"
+info_log "Use GitHub Gist: 424f75a3ebc5bb0c6e94761d0168fa97"
 
 info_log "Now please install Clean My Mac / Paste / Total Finder / Tuxera Disk Manager"
