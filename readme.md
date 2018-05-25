@@ -1,7 +1,7 @@
 setup
 ===
 
-One-off MacOS setup script
+One-off macOS setup script
 
 To install run
 
