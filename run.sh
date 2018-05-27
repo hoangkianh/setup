@@ -36,6 +36,9 @@ brew install node npm
 install_log "Homebrew Cask"
 brew tap caskroom/cask
 
+install_log "BetterZip"
+brew cask install betterzip
+
 install_log "Docker"
 brew cask install docker
 
@@ -73,6 +76,13 @@ export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/
 EOF
 install_log "VS Code Setting Syncs Extension"
 source ~/.bash_profile && code --install-extension Shan.code-settings-sync
+
+install_log "QuickLook"
+brew cask install qlcolorcode
+brew cask install qlimagesize
+brew cask install qlmarkdown
+brew cask install qlstephen
+brew cask install quicklook-json
 
 info_log "Use GitHub Gist: 424f75a3ebc5bb0c6e94761d0168fa97"
 
