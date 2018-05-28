@@ -36,9 +36,6 @@ brew install node npm
 install_log "Homebrew Cask"
 brew tap caskroom/cask
 
-install_log "BetterZip"
-brew cask install betterzip
-
 install_log "Docker"
 brew cask install docker
 
@@ -57,8 +54,13 @@ brew cask install google-chrome
 install_log "Go Tieng Viet"
 brew cask install gotiengviet
 
-install_log "Hyper"
-brew cask install hyper
+install_log "iTerm2"
+brew cask install iterm2
+mkdir ~/Downloads/iterm2-schemes && cd iterm2-schemes
+curl -O https://raw.githubusercontent.com/hoangkianh/setup/master/iterm2-schemes/Flat.terminal
+curl -O https://raw.githubusercontent.com/hoangkianh/setup/master/iterm2-schemes/Flatland.terminal
+curl -O https://raw.githubusercontent.com/hoangkianh/setup/master/iterm2-schemes/Material.terminal
+curl -O https://raw.githubusercontent.com/hoangkianh/setup/master/iterm2-schemes/MaterialDark.terminal
 
 install_log "HyperDock"
 brew cask install hyperdock
@@ -72,6 +74,9 @@ brew cask install skype
 install_log "Slack"
 brew cask install slack
 
+install_log "The Unarchiver"
+brew cask install the-unarchiver
+
 install_log "VS Code"
 brew cask install visual-studio-code
 cat << EOF >> ~/.bash_profile
@@ -81,12 +86,8 @@ install_log "VS Code Setting Syncs Extension"
 source ~/.bash_profile && code --install-extension Shan.code-settings-sync
 
 install_log "QuickLook"
-brew cask install qlcolorcode
-brew cask install qlimagesize
-brew cask install qlmarkdown
-brew cask install qlstephen
-brew cask install quicklook-json
+brew cask install qlcolorcode qlimagesize qlmarkdown qlstephen quicklook-json
 
 info_log "Use GitHub Gist: 424f75a3ebc5bb0c6e94761d0168fa97"
 
-info_log "Now please install Clean My Mac / Paste / Total Finder / Tuxera Disk Manager"
+info_log "Now please install Clean My Mac / Paste / Total Finder / Tuxera Disk Manager / Bartender"
