@@ -57,8 +57,13 @@ brew cask install google-chrome
 install_log "Go Tieng Viet"
 brew cask install gotiengviet
 
-install_log "Hyper"
-brew cask install hyper
+install_log "iTerm2"
+brew cask install iterm2
+mkdir ~/Downloads/iterm2-schemes && cd iterm2-schemes
+curl -O https://raw.githubusercontent.com/hoangkianh/setup/master/iterm2-schemes/Flat.terminal
+curl -O https://raw.githubusercontent.com/hoangkianh/setup/master/iterm2-schemes/Flatland.terminal
+curl -O https://raw.githubusercontent.com/hoangkianh/setup/master/iterm2-schemes/Material.terminal
+curl -O https://raw.githubusercontent.com/hoangkianh/setup/master/iterm2-schemes/MaterialDark.terminal
 
 install_log "HyperDock"
 brew cask install hyperdock
