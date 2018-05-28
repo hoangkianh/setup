@@ -86,4 +86,4 @@ brew cask install quicklook-json
 
 info_log "Use GitHub Gist: 424f75a3ebc5bb0c6e94761d0168fa97"
 
-info_log "Now please install Clean My Mac / Paste / Total Finder / Tuxera Disk Manager"
+info_log "Now please install Clean My Mac / Paste / Total Finder / Tuxera Disk Manager / Bartender"
