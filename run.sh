@@ -83,11 +83,7 @@ install_log "VS Code Setting Syncs Extension"
 source ~/.bash_profile && code --install-extension Shan.code-settings-sync
 
 install_log "QuickLook"
-brew cask install qlcolorcode
-brew cask install qlimagesize
-brew cask install qlmarkdown
-brew cask install qlstephen
-brew cask install quicklook-json
+brew cask install qlcolorcode qlimagesize qlmarkdown qlstephen quicklook-json
 
 info_log "Use GitHub Gist: 424f75a3ebc5bb0c6e94761d0168fa97"
 
