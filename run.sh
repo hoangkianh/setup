@@ -63,6 +63,9 @@ brew cask install hyper
 install_log "HyperDock"
 brew cask install hyperdock
 
+install_log "mpv"
+brew cask install mpv
+
 install_log "Skype"
 brew cask install skype
 
