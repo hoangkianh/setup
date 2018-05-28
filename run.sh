@@ -36,9 +36,6 @@ brew install node npm
 install_log "Homebrew Cask"
 brew tap caskroom/cask
 
-install_log "BetterZip"
-brew cask install betterzip
-
 install_log "Docker"
 brew cask install docker
 
@@ -73,6 +70,9 @@ brew cask install skype
 
 install_log "Slack"
 brew cask install slack
+
+install_log "The Unarchiver"
+brew cask install the-unarchiver
 
 install_log "VS Code"
 brew cask install visual-studio-code
