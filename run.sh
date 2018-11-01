@@ -88,6 +88,6 @@ source ~/.bash_profile && code --install-extension Shan.code-settings-sync
 install_log "QuickLook"
 brew cask install qlcolorcode qlimagesize qlmarkdown qlstephen quicklook-json
 
-info_log "Use GitHub Gist: 424f75a3ebc5bb0c6e94761d0168fa97"
+info_log "Use GitHub Gist: 42d1173f6991241e7a72b8911f7c19a0"
 
 info_log "Now please install Clean My Mac / Paste / Total Finder / Tuxera Disk Manager / Bartender"
