@@ -33,6 +33,9 @@ chsh -s $(which zsh)
 install_log "NodeJS"
 brew install node npm
 
+install_log "Transmission"
+brew install transmission
+
 install_log "Homebrew Cask"
 brew tap caskroom/cask
 
