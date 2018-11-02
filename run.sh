@@ -56,11 +56,9 @@ brew cask install gotiengviet
 
 install_log "iTerm2"
 brew cask install iterm2
-mkdir ~/Downloads/iterm2-schemes && cd iterm2-schemes
-curl -O https://raw.githubusercontent.com/hoangkianh/setup/master/iterm2-schemes/Flat.terminal
-curl -O https://raw.githubusercontent.com/hoangkianh/setup/master/iterm2-schemes/Flatland.terminal
-curl -O https://raw.githubusercontent.com/hoangkianh/setup/master/iterm2-schemes/Material.terminal
-curl -O https://raw.githubusercontent.com/hoangkianh/setup/master/iterm2-schemes/MaterialDark.terminal
+mkdir ~/Downloads/iterm2-schemes && cd ~/Downloads/iterm2-schemes/
+curl -O https://raw.githubusercontent.com/hoangkianh/setup/master/iterm2-schemes/Flatland.itermcolors
+curl -O https://raw.githubusercontent.com/hoangkianh/setup/master/iterm2-schemes/MaterialDark.itermcolors
 
 install_log "HyperDock"
 brew cask install hyperdock
