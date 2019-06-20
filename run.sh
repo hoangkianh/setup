@@ -50,6 +50,9 @@ brew cask install dropbox
 install_log "Fliqlo"
 brew cask install fliqlo
 
+install_log "Brooklyn"
+brew cask install brooklyn
+
 install_log "Google Drive"
 brew cask install google-backup-and-sync
 
@@ -90,9 +93,6 @@ source ~/.bash_profile && code --install-extension Shan.code-settings-sync
 
 install_log "QuickLook"
 brew cask install qlcolorcode qlimagesize qlmarkdown qlstephen quicklook-json
-
-install_log "Brooklyn"
-brew cask install brooklyn
 
 info_log "Use GitHub Gist: 42d1173f6991241e7a72b8911f7c19a0"
 
