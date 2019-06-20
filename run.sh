@@ -39,9 +39,6 @@ brew install transmission
 install_log "Homebrew Cask"
 brew tap caskroom/cask
 
-install_log "Docker"
-brew cask install docker
-
 install_log "Dropbox"
 brew cask install dropbox
 
@@ -89,6 +86,9 @@ source ~/.bash_profile && code --install-extension Shan.code-settings-sync
 install_log "QuickLook"
 brew cask install qlcolorcode qlimagesize qlmarkdown qlstephen quicklook-json
 
+install_log "Brooklyn"
+brew cask install brooklyn
+
 info_log "Use GitHub Gist: 42d1173f6991241e7a72b8911f7c19a0"
 
-info_log "Now please install Clean My Mac / Paste / Total Finder / Tuxera Disk Manager / Bartender"
+info_log "Now please install Clean My Mac / Paste / Total Finder / Tuxera Disk Manager / Bartender / Fliqlo"
