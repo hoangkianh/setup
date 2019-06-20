@@ -23,6 +23,9 @@ brew install git
 install_log "zsh & plugins"
 brew install zsh zsh-autosuggestions zsh-syntax-highlighting
 
+install_log "oh-my-zsh"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 install_log "zshrc settings"
 curl -o .zshrc https://raw.githubusercontent.com/hoangkianh/setup/master/.zshrc
 
