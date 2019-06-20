@@ -47,7 +47,7 @@ brew tap caskroom/cask
 install_log "Dropbox"
 brew cask install dropbox
 
-install_log "Fliglo"
+install_log "Fliqlo"
 brew cask install fliqlo
 
 install_log "Google Drive"
@@ -96,4 +96,4 @@ brew cask install brooklyn
 
 info_log "Use GitHub Gist: 42d1173f6991241e7a72b8911f7c19a0"
 
-info_log "Now please install Clean My Mac / Paste / Total Finder / Tuxera Disk Manager / Bartender / Fliqlo"
+info_log "Now please install Clean My Mac / Paste / Total Finder / Tuxera Disk Manager / Bartender"
