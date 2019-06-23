@@ -47,6 +47,9 @@ brew tap caskroom/cask
 install_log "1Password"
 brew cask install 1password
 
+install_log "Coconut Battery"
+brew cask install coconutbattery
+
 install_log "Dropbox"
 brew cask install dropbox
 
