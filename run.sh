@@ -106,6 +106,13 @@ source ~/.bash_profile && code --install-extension Shan.code-settings-sync
 install_log "QuickLook"
 brew cask install qlcolorcode qlimagesize qlmarkdown qlstephen quicklook-json
 
+install_log "Turn off Gatekeeper"
+sudo spctl --master-disable
+
+install_log "Show all hidden files"
+defaults write com.apple.finder AppleShowAllFiles YES
+killall Finder /System/Library/CoreServices/Finder.app
+
 info_log "Use GitHub Gist: 42d1173f6991241e7a72b8911f7c19a0"
 
 info_log "Now please install MAMP Pro / Transmit / Clean My Mac / Macs Fan Control / Paste / Tuxera Disk Manager / Bartender / Sketch / Photoshop"
