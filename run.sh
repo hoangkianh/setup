@@ -102,4 +102,4 @@ brew cask install qlcolorcode qlimagesize qlmarkdown qlstephen quicklook-json
 
 info_log "Use GitHub Gist: 42d1173f6991241e7a72b8911f7c19a0"
 
-info_log "Now please install MAMP Pro / Transmit / Clean My Mac / Macs Fan Contro / Paste / Tuxera Disk Manager / Bartender / Sketch / Photoshop"
+info_log "Now please install MAMP Pro / Transmit / Clean My Mac / Macs Fan Control / Paste / Tuxera Disk Manager / Bartender / Sketch / Photoshop"
