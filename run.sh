@@ -106,12 +106,12 @@ source ~/.bash_profile && code --install-extension Shan.code-settings-sync
 install_log "QuickLook"
 brew cask install qlcolorcode qlimagesize qlmarkdown qlstephen quicklook-json
 
-install_log "Turn off Gatekeeper"
-sudo spctl --master-disable
-
 install_log "Show all hidden files"
 defaults write com.apple.finder AppleShowAllFiles YES
 killall Finder /System/Library/CoreServices/Finder.app
+
+install_log "Disable Gatekeeper"
+sudo spctl --master-disable
 
 info_log "Use GitHub Gist: 42d1173f6991241e7a72b8911f7c19a0"
 
