@@ -8,7 +8,7 @@ export ZSH=/Users/hka/.oh-my-zsh
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="lambda"
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#aaa,underline"
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -52,7 +52,7 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#aaa,underline"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
-
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#aaa,underline"
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
