@@ -31,6 +31,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 install_log "zshrc settings"
 curl -o .zshrc https://raw.githubusercontent.com/hoangkianh/setup/master/.zshrc
 
+install_log "zsh-autosuggestions"
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+install_log "zsh-syntax-highlighting"
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
 install_log "Setting zsh as default shell"
 command -v zsh | sudo tee -a /etc/shells
 chsh -s $(which zsh)
