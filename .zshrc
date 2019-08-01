@@ -52,7 +52,7 @@ ZSH_THEME="lambda"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#aaa,underline"
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#aaa"
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
