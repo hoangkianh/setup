@@ -105,6 +105,7 @@ source ~/.bash_profile && code --install-extension Shan.code-settings-sync
 
 install_log "QuickLook"
 brew cask install qlcolorcode qlimagesize qlmarkdown qlstephen quicklook-json
+info_log "Install: https://github.com/sbarex/SourceCodeSyntaxHighlight"
 
 install_log "Show all hidden files"
 defaults write com.apple.finder AppleShowAllFiles YES
