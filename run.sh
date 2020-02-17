@@ -47,9 +47,6 @@ brew install node npm
 install_log "Transmission"
 brew install transmission
 
-install_log "Homebrew Cask"
-brew tap caskroom/cask
-
 install_log "1Password"
 brew cask install 1password
 
