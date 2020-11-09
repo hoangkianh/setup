@@ -97,8 +97,6 @@ brew cask install visual-studio-code
 cat << EOF >> ~/.bash_profile
 export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 EOF
-install_log "VS Code Setting Syncs Extension"
-source ~/.bash_profile && code --install-extension Shan.code-settings-sync
 
 install_log "QuickLook"
 brew cask install qlcolorcode qlimagesize qlmarkdown qlstephen quicklook-json
