@@ -109,5 +109,6 @@ sudo spctl --master-disable
 info_log "Use GitHub Gist: 42d1173f6991241e7a72b8911f7c19a0"
 
 info_log "FiraCode: https://github.com/tonsky/FiraCode"
+info_log "FiraCode Nerd Font: https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode"
 
 info_log "Now please install MAMP Pro / Transmit / Clean My Mac / Macs Fan Control / Paste / Tuxera Disk Manager / Bartender / Sketch / Photoshop"
