@@ -94,13 +94,6 @@ brew cask install the-unarchiver
 
 install_log "VS Code"
 brew cask install visual-studio-code
-cat << EOF >> ~/.bash_profile
-export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-EOF
-
-install_log "QuickLook"
-brew cask install qlcolorcode qlimagesize qlmarkdown qlstephen quicklook-json
-info_log "Install: https://github.com/sbarex/SourceCodeSyntaxHighlight"
 
 install_log "Show all hidden files"
 defaults write com.apple.finder AppleShowAllFiles YES
