@@ -95,6 +95,10 @@ brew cask install the-unarchiver
 install_log "VS Code"
 brew cask install visual-studio-code
 
+install_log "Code minimap"
+brew tap wfxr/code-minimap
+brew install code-minimap
+
 install_log "Show all hidden files"
 defaults write com.apple.finder AppleShowAllFiles YES
 killall Finder /System/Library/CoreServices/Finder.app
