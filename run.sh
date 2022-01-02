@@ -49,6 +49,9 @@ brew install --cask 1password
 install_log "Bartender"
 brew install --cask bartender
 
+install_log "Cloudflare WARP"
+brew install --cask cloudflare-warp
+
 install_log "Coconut Battery"
 brew install --cask coconutbattery
 
@@ -84,6 +87,9 @@ brew install --cask karabiner-elements
 
 install_log "Macs Fan Control"
 brew install --cask macs-fan-control
+
+install_log "MonitorControl"
+brew install --cask monitorcontrol
 
 install_log "mpv"
 brew install --cask mpv
