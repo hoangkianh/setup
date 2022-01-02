@@ -129,8 +129,6 @@ killall Finder /System/Library/CoreServices/Finder.app
 install_log "Disable Gatekeeper"
 sudo spctl --master-disable
 
-info_log "Use GitHub Gist: 42d1173f6991241e7a72b8911f7c19a0"
-
 info_log "FiraCode: https://github.com/tonsky/FiraCode"
 info_log "FiraCode Nerd Font: https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode"
 
