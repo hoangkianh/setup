@@ -102,6 +102,7 @@ brew install --cask neovim
 
 install_log "NodeJS"
 brew install node npm
+npm install --global yarn
 
 install_log "Skype"
 brew install --cask skype
