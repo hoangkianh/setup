@@ -117,7 +117,7 @@ brew install --cask telegram
 brew install --cask telegram-desktop
 
 install_log "Transmission"
-brew install transmission
+brew install --cask transmission
 
 install_log "Show all hidden files"
 defaults write com.apple.finder AppleShowAllFiles YES
