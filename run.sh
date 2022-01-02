@@ -21,6 +21,8 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 install_log "Git"
 brew install git
+git config --global user.name "hoangkianh"
+git config --global user.email hoangkianh31592@gmail.com
 
 install_log "zsh & plugins"
 brew install zsh
