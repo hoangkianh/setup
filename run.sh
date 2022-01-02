@@ -16,7 +16,7 @@ info_log () {
 
 install_log "Homebrew"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/hoangkianh/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/hka/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 install_log "Git"
@@ -71,7 +71,7 @@ install_log "GoTiengViet"
 brew install --cask gotiengviet
 
 install_log "Google Drive"
-brew install --cask google-backup-and-sync
+brew install --cask google-drive
 
 install_log "Google Chrome"
 brew install --cask google-chrome
