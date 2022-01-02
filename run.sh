@@ -110,6 +110,9 @@ brew install --cask skype
 install_log "Slack"
 brew install --cask slack
 
+install_log "Syntax Highlight"
+brew install --cask syntax-highlight 
+
 install_log "The Unarchiver"
 brew install --cask the-unarchiver
 
