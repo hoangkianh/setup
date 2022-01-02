@@ -16,6 +16,8 @@ info_log () {
 
 install_log "Homebrew"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/hoangkianh/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 install_log "Git"
 brew install git
@@ -41,35 +43,35 @@ install_log "Setting zsh as default shell"
 command -v zsh | sudo tee -a /etc/shells
 chsh -s $(which zsh)
 
-install_log "NodeJS"
-brew install node npm
-
-install_log "Transmission"
-brew install transmission
-
 install_log "1Password"
-brew cask install 1password
+brew install --cask 1password
+
+install_log "Bartender"
+brew install --cask bartender
 
 install_log "Coconut Battery"
-brew cask install coconutbattery
+brew install --cask coconutbattery
+
+install_log "Discord"
+brew install --cask discord
 
 install_log "Dropbox"
-brew cask install dropbox
+brew install --cask dropbox
 
 install_log "Fliqlo"
-brew cask install fliqlo
+brew install --cask fliqlo
 
 install_log "Brooklyn"
-brew cask install brooklyn
+brew install --cask brooklyn
 
 install_log "Google Drive"
-brew cask install google-backup-and-sync
+brew install --cask google-backup-and-sync
 
 install_log "Google Chrome"
-brew cask install google-chrome
+brew install --cask google-chrome
 
-install_log "Go Tieng Viet"
-brew cask install gotiengviet
+install_log "HyperDock"
+brew install --cask hyperdock
 
 install_log "iTerm2"
 brew cask install iterm2
@@ -77,32 +79,39 @@ mkdir ~/Downloads/iterm2-schemes && cd ~/Downloads/iterm2-schemes/
 curl -O https://raw.githubusercontent.com/hoangkianh/setup/master/iterm2-schemes/Flatland.itermcolors
 curl -O https://raw.githubusercontent.com/hoangkianh/setup/master/iterm2-schemes/MaterialDark.itermcolors
 
-install_log "HyperDock"
-brew cask install hyperdock
+install_log "Karabiner"
+brew install --cask karabiner-elements
+
+install_log "Macs Fan Control"
+brew install --cask macs-fan-control
 
 install_log "mpv"
-brew cask install mpv
-
-install_log "Skype"
-brew cask install skype
-
-install_log "Slack"
-brew cask install slack
-
-install_log "The Unarchiver"
-brew cask install the-unarchiver
-
-install_log "VS Code"
-brew cask install visual-studio-code
-
-install_log "Tmux"
-brew install tmux
+brew install --cask mpv
 
 install_log "NeoVim"
-brew install neovim
+brew install --cask neovim
 
-install_log "ripgrep"
-brew install ripgrep
+install_log "NodeJS"
+brew install node npm
+
+install_log "Skype"
+brew install --cask skype
+
+install_log "Slack"
+brew install --cask slack
+
+install_log "The Unarchiver"
+brew install --cask the-unarchiver
+
+install_log "VS Code"
+brew install --cask visual-studio-code
+
+install_log "Telegram Lite & Desktop"
+brew install --cask telegram
+brew install --cask telegram-desktop
+
+install_log "Transmission"
+brew install transmission
 
 install_log "Show all hidden files"
 defaults write com.apple.finder AppleShowAllFiles YES
@@ -116,4 +125,4 @@ info_log "Use GitHub Gist: 42d1173f6991241e7a72b8911f7c19a0"
 info_log "FiraCode: https://github.com/tonsky/FiraCode"
 info_log "FiraCode Nerd Font: https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode"
 
-info_log "Now please install MAMP Pro / Transmit / Clean My Mac / Macs Fan Control / Paste / Tuxera Disk Manager / Bartender / Sketch / Photoshop"
+info_log "Now please install Clean My Mac / Lightshot / Paste / Sketch / TotalFinder"
