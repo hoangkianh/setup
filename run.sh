@@ -72,9 +72,6 @@ brew install --cask fliqlo
 install_log "Brooklyn"
 brew install --cask brooklyn
 
-install_log "GoTiengViet"
-brew install --cask gotiengviet
-
 install_log "Google Drive"
 brew install --cask google-drive
 
