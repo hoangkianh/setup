@@ -63,6 +63,9 @@ brew install --cask discord
 install_log "Dropbox"
 brew install --cask dropbox
 
+install_log "EVKey"
+brew install --cask evkey
+
 install_log "Fliqlo"
 brew install --cask fliqlo
 
